@@ -1,9 +1,9 @@
 function ReverseString(userString) {
-    if (userString === null || userString === undefined) {
-        console.log("Введите строку");
-    } else {
-        console.log(userString + " -> " + userString.split('').reverse().join(''));
+    let reverseString = '';
+    for (let i = userString.length-1; i >= 0; i--) {
+        reverseString = reverseString.concat(userString[i]);
     }
+    console.log("Введенный текст \"" + userString+ "\" после переворота => " + reverseString)
 }
 
 const userString = prompt('Введите текст для переворота');
