@@ -5,7 +5,7 @@ function CountChar(userString, char) {
             countChar += 1;
         }
     }
-    console.log("CountChar(\"" + userString + "\", " + "\"" + char + "\" ) -> " + countChar)
+    console.log(" -> " + countChar)
 }
 
 CountChar("Abrakadabra", "a")
