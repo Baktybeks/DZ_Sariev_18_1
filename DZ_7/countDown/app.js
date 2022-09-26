@@ -7,6 +7,8 @@ const minutesCounterElement = timeWrapper.querySelector("#timer-minutes-value");
 const secondsCounterElement = timeWrapper.querySelector("#timer-seconds-value");
 
 
+
+
 function GetDiffDate(date) {
     const dateNow = new Date();
     return date - dateNow;
