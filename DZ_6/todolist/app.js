@@ -2,17 +2,28 @@ const TodoListTasks = [];
 
 var todoListAddBtn = document.querySelector("#todo-list-task-add-btn");
 todoListAddBtn.addEventListener("click", AddTodo);
+
+var todoListRemoveAllBtn = document.querySelector("#todo-list-task-remove-btn");
+todoListRemoveAllBtn.addEventListener("click", RemoveAllTodo);
+
+
 const todoListElement = document.getElementById("todo-list");
 
 function AddTodo() {
   var todoListTaskText = document.getElementById("todo-list-task-text").value;
-
+  if (todoListTaskText===''){
+    // console.log('пустота')
+    alert('введите задачу пожалуйста')
+  }else {
+  AddTodoToViewModel(todoListTaskText);
+  RenderViewModel()
+  }
+  // console.log(todoListTaskText)
     // var liElement = document.createElement("li");
     // liElement.innerText = todoListTaskText;
     // todoListElement.appendChild(liElement);
 
-  AddTodoToViewModel(todoListTaskText);
-  RenderViewModel();
+;
 }
 
 function AddTodoToViewModel(text) {
@@ -43,6 +54,12 @@ function RemoveTodo(taskId) {
     .parentElement.parentElement.remove();
   //RenderViewModel();
 }
+
+function RemoveAllTodo() {
+  TodoListTasks.splice(0,TodoListTasks.length)
+  RenderViewModel();
+}
+
 
 //MVVM - Model View ViewModel
 
