@@ -30,7 +30,9 @@ if (ExtractSecondsFromDiffDate(GetDiffDate(startDate)) <=0) {
   var parent = document.getElementById("counter-wrapper");
   var child = document.getElementById("counter-inner");
   parent.removeChild(child);
-  
+  var divElement = document.createElement("div");
+  divElement.innerText = "курс уже начался";
+  parent.appendChild(divElement);
 
   console.log("курс уже начался")
 } else {
