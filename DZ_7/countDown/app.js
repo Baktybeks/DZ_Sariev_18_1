@@ -1,5 +1,5 @@
 const timeWrapper = document.getElementById("counterTimer");
-const startDate = new Date(2022, 8, 1, 20, 0, 0); // 1 октября 2022
+const startDate = new Date(2022, 8, 30, 9, 45, 0); // 1 октября 2022
 
 const daysCounterElement = timeWrapper.querySelector("#timer-days-value");
 const hoursCounterElement = timeWrapper.querySelector("#timer-hours-value");
@@ -26,18 +26,19 @@ function ExtractSecondsFromDiffDate(diffDate) {
   return Math.floor((diffDate % (60 * 1000)) / 1000);
 }
 
-if (ExtractSecondsFromDiffDate(GetDiffDate(startDate)) <=0) {
-  var parent = document.getElementById("counter-wrapper");
-  var child = document.getElementById("counter-inner");
-  parent.removeChild(child);
-  var divElement = document.createElement("div");
-  divElement.innerText = "курс уже начался";
-  parent.appendChild(divElement);
+setInterval(() => {
+  if (ExtractSecondsFromDiffDate(GetDiffDate(startDate)) <= 0) {
+    var parent = document.getElementById("counter-wrapper");
+    var child = document.getElementById("counter-inner");
+    parent.removeChild(child);
+    var divElement = document.createElement("div");
+    divElement.innerText = "курс уже начался";
+    parent.appendChild(divElement);
 
-  console.log("курс уже начался")
-} else {
+    console.log("курс уже начался")
+  } else {
 
-  setInterval(() => {
+
     daysCounterElement.innerHTML = ExtractDaysFromDiffDate(
         GetDiffDate(startDate)
     );
@@ -50,5 +51,6 @@ if (ExtractSecondsFromDiffDate(GetDiffDate(startDate)) <=0) {
     secondsCounterElement.innerHTML = ExtractSecondsFromDiffDate(
         GetDiffDate(startDate)
     );
-  }, 1000);
-}
+
+  }
+}, 1000);

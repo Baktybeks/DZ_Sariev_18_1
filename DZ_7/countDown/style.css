@@ -154,8 +154,10 @@ body {
     }
 }
 
-.counter-wrapper div {
+.counter-wrapper >div {
 
     color: white;
-    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+
 }
