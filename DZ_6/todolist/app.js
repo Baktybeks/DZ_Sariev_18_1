@@ -2,15 +2,19 @@ const TodoListTasks = [];
 
 var todoListAddBtn = document.querySelector("#todo-list-task-add-btn");
 todoListAddBtn.addEventListener("click", AddTodo);
+<<<<<<< Updated upstream
 
 var todoListRemoveAllBtn = document.querySelector("#todo-list-task-remove-btn");
 todoListRemoveAllBtn.addEventListener("click", RemoveAllTodo);
 
 
+=======
+>>>>>>> Stashed changes
 const todoListElement = document.getElementById("todo-list");
 
 function AddTodo() {
   var todoListTaskText = document.getElementById("todo-list-task-text").value;
+<<<<<<< Updated upstream
   if (todoListTaskText===''){
     // console.log('пустота')
     alert('введите задачу пожалуйста')
@@ -19,11 +23,19 @@ function AddTodo() {
   RenderViewModel()
   }
   // console.log(todoListTaskText)
+=======
+
+>>>>>>> Stashed changes
     // var liElement = document.createElement("li");
     // liElement.innerText = todoListTaskText;
     // todoListElement.appendChild(liElement);
 
+<<<<<<< Updated upstream
 ;
+=======
+  AddTodoToViewModel(todoListTaskText);
+  RenderViewModel();
+>>>>>>> Stashed changes
 }
 
 function AddTodoToViewModel(text) {
@@ -55,12 +67,15 @@ function RemoveTodo(taskId) {
   //RenderViewModel();
 }
 
+<<<<<<< Updated upstream
 function RemoveAllTodo() {
   TodoListTasks.splice(0,TodoListTasks.length)
   RenderViewModel();
 }
 
 
+=======
+>>>>>>> Stashed changes
 //MVVM - Model View ViewModel
 
 function CreateTodoListTaskComponent(task) {
