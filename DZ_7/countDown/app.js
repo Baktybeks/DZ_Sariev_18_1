@@ -1,5 +1,5 @@
 const timeWrapper = document.getElementById("counterTimer");
-const startDate = new Date(2022, 8, 30, 9, 45, 0); // 1 октября 2022
+const startDate = new Date(2022, 9, 3, 21, 32, 0); // 1 октября 2022
 
 const daysCounterElement = timeWrapper.querySelector("#timer-days-value");
 const hoursCounterElement = timeWrapper.querySelector("#timer-hours-value");

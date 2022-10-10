@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa280757-ea51-4e9d-97de-c673d060d766" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DZ_7/countDown/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_7/countDown/app.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2EoGAhv4vOCftebchfCzJRToIiI" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Desktop\!GEEKTECH\frontend_2\DZ_Sariev_18_1\DZ_7\3" />
+      <recent name="E:\Desktop\!GEEKTECH\frontend_2\DZ_Sariev_18_1\DZ_7\4" />
+      <recent name="E:\Desktop\!GEEKTECH\frontend_2\DZ_Sariev_18_1\DZ_7\2" />
+      <recent name="E:\Desktop\!GEEKTECH\frontend_2\DZ_Sariev_18_1\DZ_7" />
+      <recent name="E:\Desktop\!GEEKTECH\frontend_2\DZ_Sariev_18_1\DZ_6\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Desktop\!GEEKTECH\frontend_2\DZ_Sariev_18_1\DZ_5\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa280757-ea51-4e9d-97de-c673d060d766" name="Default Changelist" comment="" />
+      <created>1663254381960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663254381960</updated>
+      <workItem from="1663254384404" duration="100000" />
+      <workItem from="1663263500605" duration="6477000" />
+      <workItem from="1663296150940" duration="5450000" />
+      <workItem from="1663680941191" duration="67000" />
+      <workItem from="1663681038270" duration="14961000" />
+      <workItem from="1663764338266" duration="791000" />
+      <workItem from="1663833892218" duration="3326000" />
+      <workItem from="1663855503680" duration="2160000" />
+      <workItem from="1664178612879" duration="9315000" />
+      <workItem from="1664197601824" duration="1840000" />
+      <workItem from="1664201884869" duration="28329000" />
+      <workItem from="1664806119510" duration="339000" />
+      <workItem from="1664806490679" duration="1937000" />
+      <workItem from="1665390002217" duration="453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1663297197150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1663297197150" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1663254378501">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1663254378501" />
+    <state x="478" y="147" width="579" height="530" key="find.popup" timestamp="1663835035254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="147" width="579" height="530" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1663835035254" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1663265106112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1663265106112" />
+  </component>
+</project>
