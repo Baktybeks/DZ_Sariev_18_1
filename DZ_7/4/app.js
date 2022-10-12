@@ -12,5 +12,5 @@ const accounts = [
 //     return currency.Currency !== "KGS"
 // })
 
-const filterCurrency = accounts.filter((currency) => currency.Currency !== "KGS")
+const filterCurrency = accounts.filter((account) => account.Currency !== "KGS")
 console.log(filterCurrency);

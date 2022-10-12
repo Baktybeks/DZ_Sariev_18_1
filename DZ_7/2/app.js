@@ -39,7 +39,7 @@ function Transliteration(char) {
         case ' ': return ' ';
     }
 }
-const transliteration = customersNames.map((name) => Perebor(name));
+const ApplyTranslit = customersNames.map((name) => Perebor(name));
 
 
 function Perebor(name) {
@@ -49,4 +49,4 @@ function Perebor(name) {
     }
     return transliterationName
 }
-console.log(transliteration)
+console.log(ApplyTranslit)

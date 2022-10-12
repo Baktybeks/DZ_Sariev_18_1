@@ -35,7 +35,6 @@ setInterval(() => {
     divElement.innerText = "курс уже начался";
     parent.appendChild(divElement);
 
-    console.log("курс уже начался")
   } else {
 
 
